@@ -1,0 +1,169 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "name": "Toyota Corolla",
+      "model": "2022",
+      "dailyRate": 50,
+      "seats": 5,
+      "numberPlate": "ABC-123",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT11K3SZNlbFIFeEW3X31uTMb8GcoywKc2aMALJZzqI87gWxa8QZYoq24awjhfj2GM2w_A&usqp=CAU",
+      "brand": "Toyota",
+      "availability": true
+    },
+    {
+      "id": "2",
+      "name": "Honda Civic",
+      "model": "2021",
+      "dailyRate": 55,
+      "seats": 5,
+      "numberPlate": "XYZ-789",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKG_gwG2Si1mjxPIDGKfL_gO1nNeNjCMCjhx2vk9aYY-4kgQaIChV51_uM2mn2nvehCk&usqp=CAU",
+      "brand": "Honda",
+      "availability": true
+    },
+    {
+      "id": "3",
+      "name": "Hyundai Elantra",
+      "model": "2023",
+      "dailyRate": 60,
+      "seats": 5,
+      "numberPlate": "DEF-456",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHRf5wXJWLSrO4LqUHABPOa0yGzvl2AU3mxTI6rNqaiSpfweJ9_NG144D2w9TBR6P11Q&usqp=CAU",
+      "brand": "Hyundai",
+      "availability": false
+    },
+    {
+      "id": "4",
+      "name": "Nissan Altima",
+      "model": "2020",
+      "dailyRate": 48,
+      "seats": 5,
+      "numberPlate": "GHI-101",
+      "image": "https://media.ed.edmunds-media.com/nissan/altima/2020/oem/2020_nissan_altima_sedan_25-platinum_fq_oem_1_1600.jpg",
+      "brand": "Nissan",
+      "availability": true
+    },
+    {
+      "id": "5",
+      "name": "Ford Explorer",
+      "model": "2021",
+      "dailyRate": 70,
+      "seats": 7,
+      "numberPlate": "JKL-202",
+      "image": "https://d2qldpouxvc097.cloudfront.net/image-by-path?bucket=a5-gallery-serverless-prod-chromebucket-1iz9ffi08lwxm&key=450243%2Ffront34%2Flg%2Fe4e4e3",
+      "brand": "Ford",
+      "availability": false
+    },
+    {
+      "id": "6",
+      "name": "Chevrolet Malibu",
+      "model": "2019",
+      "dailyRate": 45,
+      "seats": 5,
+      "numberPlate": "MNO-303",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEmdeq0bZ9fbox2pFj4J28_vY-N8jAj1o1m_bOJl5MR3UA_hgRDe428YniynsX_3RdqFE&usqp=CAU",
+      "brand": "Chevrolet",
+      "availability": true
+    },
+    {
+      "id": "7",
+      "name": "BMW 3 Series",
+      "model": "2022",
+      "dailyRate": 85,
+      "seats": 5,
+      "numberPlate": "PQR-404",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRPltGS5RZrpnh1nDc2ksurlk2EuGwXbg5xXFRIaLsAQGFg5ybKaUaQX2xmpNV4NYPzpY&usqp=CAU",
+      "brand": "BMW",
+      "availability": true
+    },
+    {
+      "id": "8",
+      "name": "Audi A4",
+      "model": "2023",
+      "dailyRate": 90,
+      "seats": 5,
+      "numberPlate": "STU-505",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF2FIphUqIa8ddSxzB24NVuXU0MpHT2Eu-u0BbEl_Vle8s8l9kksRGBysKzI_7D7ZtxVc&usqp=CAU",
+      "brand": "Audi",
+      "availability": false
+    },
+    {
+      "id": "9",
+      "name": "Mercedes C-Class",
+      "model": "2021",
+      "dailyRate": 100,
+      "seats": 5,
+      "numberPlate": "VWX-606",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-E7Ruf5QGJYG34acZgehvjqOlBhVrFIGZJ2Zh1iSLYhMeOnjeRmQ-7RbktBEh3UCG_R0&usqp=CAU",
+      "brand": "Mercedes",
+      "availability": true
+    },
+    {
+      "id": "10",
+      "name": "Tesla Model 3",
+      "model": "2023",
+      "dailyRate": 120,
+      "seats": 5,
+      "numberPlate": "YZA-707",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-kwSrXBFI5FVqBYeV9vGkR_f2wnZqbFrl8lhY2UjyjBk9NcNcc3zKPrMRKXfDoxGDw-Y&usqp=CAU",
+      "brand": "Tesla",
+      "availability": true
+    },
+    {
+      "id": "11",
+      "name": "Volkswagen Passat",
+      "model": "2020",
+      "dailyRate": 52,
+      "seats": 5,
+      "numberPlate": "BCD-808",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3t8uwKaoLyN1tI7WxKMACnhIHmJSad6U6AdNyOgQRysNjlLMxm_SiScTS98pac-EVsVY&usqp=CAU",
+      "brand": "Volkswagen",
+      "availability": true
+    },
+    {
+      "id": "12",
+      "name": "Mazda 6",
+      "model": "2022",
+      "dailyRate": 54,
+      "seats": 5,
+      "numberPlate": "EFG-909",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS78sbKqE8TdHVjiMtJckRG2EC6qB4fZZNMzxqC31WSIKGYCVYjOaNdDsQcY7-OGy4JQnQ&usqp=CAU",
+      "brand": "Mazda",
+      "availability": true
+    },
+    {
+      "id": "13",
+      "name": "Kia Sportage",
+      "model": "2021",
+      "dailyRate": 65,
+      "seats": 5,
+      "numberPlate": "HIJ-111",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQod3GlSy2z-DS0avKf6YwdpHWNKozpSRgf1O_mUBVf-C_5EawgojOJlLqpuiX03Y5BmWY&usqp=CAU",
+      "brand": "Kia",
+      "availability": false
+    },
+    {
+      "id": "14",
+      "name": "Jeep Cherokee",
+      "model": "2023",
+      "dailyRate": 75,
+      "seats": 5,
+      "numberPlate": "KLM-222",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRACRT6RQMk4csY68rnxb9_7kFaM5ajohMXUEGyPvfkL-adJrfXSsq_GhOCda50-v2jx8k&usqp=CAU",
+      "brand": "Jeep",
+      "availability": true
+    },
+    {
+      "id": "15",
+      "name": "Subaru Outback",
+      "model": "2020",
+      "dailyRate": 58,
+      "seats": 5,
+      "numberPlate": "NOP-333",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRph1fl21KynPj6weFBpHPq6CssdJcWJ_TIDH8hHlwb50ge9zS4Cb4h_w-yqJ3CWlnbwkE&usqp=CAU",
+      "brand": "Subaru",
+      "availability": false
+    }
+  ]
+}
