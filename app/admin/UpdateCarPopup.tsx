@@ -92,7 +92,7 @@ const UpdateCarPopup: React.FC<UpdateCarPopupProps> = ({
 
   return (
     <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50'>
-      <div className='bg-white rounded-lg shadow-md sm:w-[400px] p-6'>
+      <div className='bg-white rounded-3xl shadow-md sm:w-[400px] p-6'>
         <h2 className='text-2xl font-semibold text-gray-600 mb-4'>
           Update Car
         </h2>
@@ -101,7 +101,7 @@ const UpdateCarPopup: React.FC<UpdateCarPopupProps> = ({
             <Input
               placeholder='Enter car name'
               {...register('name')}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
             />
             {errors.name && (
               <p className='text-red-500 text-sm'>
@@ -113,7 +113,7 @@ const UpdateCarPopup: React.FC<UpdateCarPopupProps> = ({
             <Input
               placeholder='Enter car model'
               {...register('model')}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
             />
             {errors.model && (
               <p className='text-red-500 text-sm'>
@@ -125,7 +125,7 @@ const UpdateCarPopup: React.FC<UpdateCarPopupProps> = ({
             <Input
               placeholder='Enter daily rate'
               {...register('dailyRate')}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
               type='text'
               onChange={(e) =>
                 setValue('dailyRate', parseFloat(e.target.value) || 0)
@@ -139,7 +139,7 @@ const UpdateCarPopup: React.FC<UpdateCarPopupProps> = ({
             <Input
               placeholder='Enter number of seats'
               {...register('seats')}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
               type='text'
               onChange={(e) =>
                 setValue('seats', parseInt(e.target.value, 10) || 0)
@@ -153,7 +153,7 @@ const UpdateCarPopup: React.FC<UpdateCarPopupProps> = ({
             <Input
               placeholder='Enter number plate'
               {...register('numberPlate')}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
             />
             {errors.numberPlate && (
               <p className='text-red-500 text-sm'>
@@ -165,7 +165,7 @@ const UpdateCarPopup: React.FC<UpdateCarPopupProps> = ({
             <Input
               placeholder='Enter image URL'
               {...register('image')}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
             />
             {errors.image && (
               <p className='text-red-500 text-sm'>
@@ -177,7 +177,7 @@ const UpdateCarPopup: React.FC<UpdateCarPopupProps> = ({
             <Input
               placeholder='Enter car brand'
               {...register('brand')}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
             />
             {errors.brand && (
               <p className='text-red-500 text-sm'>
@@ -203,7 +203,7 @@ const UpdateCarPopup: React.FC<UpdateCarPopupProps> = ({
             </Button>
             <Button
               type='submit'
-              className='bg-secondary text-white hover:bg-secondary/90'
+              className='bg-primary text-white hover:bg-primary/80'
             >
               Update Car
             </Button>

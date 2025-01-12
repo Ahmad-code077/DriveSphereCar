@@ -26,7 +26,7 @@ const DeleteCarButton: React.FC<DeleteCarButtonProps> = ({
     <>
       <button
         onClick={handleOpenDeletePopup}
-        className='px-4 py-2 bg-[#E11D48] text-white rounded-lg hover:bg-[#BE123C] focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 transition duration-200'
+        className='px-4 py-2 bg-orange-700 text-white rounded-lg hover:bg-orange-800  transition duration-200'
       >
         Delete
       </button>
@@ -95,9 +95,9 @@ const DeleteCarPopup: React.FC<DeleteCarPopupProps> = ({
   return (
     <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50'>
       <div className='bg-white rounded-lg shadow-md sm:w-[400px] p-6'>
-        <h2 className='text-xl font-bold text-secondary mb-4'>Are you sure?</h2>
+        <h2 className='text-xl font-bold text-primary mb-4'>Are you sure?</h2>
         <p className='text-gray-600 mb-6'>
-          Do you really want to delete this car? This action cannot be undone.
+          Do you really want to delete this car ? This action cannot be undone.
         </p>
         <div className='flex justify-end space-x-4'>
           <button
@@ -108,7 +108,7 @@ const DeleteCarPopup: React.FC<DeleteCarPopupProps> = ({
           </button>
           <button
             onClick={handleDeleteCar}
-            className='px-4 py-2 bg-rose-600 text-white rounded-lg hover:bg-rose-700 transition duration-200'
+            className='px-4 py-2 bg-orange-700 text-white rounded-lg hover:bg-orange-800 transition duration-200'
           >
             Delete
           </button>

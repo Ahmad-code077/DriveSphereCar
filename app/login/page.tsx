@@ -48,10 +48,10 @@ export default function LoginPage() {
     <div className='flex items-center justify-center min-h-screen'>
       <form
         onSubmit={handleLogin}
-        className='space-y-4 w-[90%] md:w-[42%] bg-accent p-6'
+        className='space-y-4 w-[90%] md:w-[42%] border border-primary rounded-md p-6 '
       >
         <h1 className='text-lg text-center sm:text-2xl font-bold mb-6'>
-          Welcome Back! Please log in.
+          Enter to start your charge!{' '}
         </h1>
         <div>
           <Label htmlFor='email'>Email</Label>
@@ -74,9 +74,11 @@ export default function LoginPage() {
           />
         </div>
         {error && <p className='text-red text-sm'>{error}</p>}
-        <Button type='submit' className='w-full bg-primary hover:text-black'>
-          Log In
-        </Button>
+        <div className='w-1/2 mx-auto'>
+          <Button type='submit' className='w-full bg-primary hover:text-black'>
+            Log In
+          </Button>
+        </div>
       </form>
     </div>
   );

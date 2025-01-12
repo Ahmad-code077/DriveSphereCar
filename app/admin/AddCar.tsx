@@ -78,7 +78,7 @@ const AddCarPopup: React.FC<AddCarPopupProps> = ({ onClose, refreshCars }) => {
 
   return (
     <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50'>
-      <div className='bg-white rounded-lg shadow-md sm:w-[400px] p-6'>
+      <div className='bg-white rounded-3xl shadow-md sm:w-[400px] p-6'>
         <h2 className='text-2xl font-semibold text-gray-600 mb-4'>
           Add New Car
         </h2>
@@ -87,7 +87,7 @@ const AddCarPopup: React.FC<AddCarPopupProps> = ({ onClose, refreshCars }) => {
             <Input
               placeholder='Enter car name'
               {...register('name')}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
             />
             {errors.name && (
               <p className='text-red-500 text-sm'>{errors.name.message}</p>
@@ -97,7 +97,7 @@ const AddCarPopup: React.FC<AddCarPopupProps> = ({ onClose, refreshCars }) => {
             <Input
               placeholder='Enter car model'
               {...register('model')}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
             />
             {errors.model && (
               <p className='text-red-500 text-sm'>{errors.model.message}</p>
@@ -107,7 +107,7 @@ const AddCarPopup: React.FC<AddCarPopupProps> = ({ onClose, refreshCars }) => {
             <Input
               placeholder='Enter daily rate'
               {...register('dailyRate', { valueAsNumber: true })}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
               type='number'
               min={1}
             />
@@ -119,7 +119,7 @@ const AddCarPopup: React.FC<AddCarPopupProps> = ({ onClose, refreshCars }) => {
             <Input
               placeholder='Enter number of seats'
               {...register('seats', { valueAsNumber: true })}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
               type='number'
               min={1}
             />
@@ -131,7 +131,7 @@ const AddCarPopup: React.FC<AddCarPopupProps> = ({ onClose, refreshCars }) => {
             <Input
               placeholder='Enter number plate'
               {...register('numberPlate')}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700  border border-gray-500'
             />
             {errors.numberPlate && (
               <p className='text-red-500 text-sm'>
@@ -143,7 +143,7 @@ const AddCarPopup: React.FC<AddCarPopupProps> = ({ onClose, refreshCars }) => {
             <Input
               placeholder='Enter image URL'
               {...register('image')}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
             />
             {errors.image && (
               <p className='text-red-500 text-sm'>{errors.image.message}</p>
@@ -153,7 +153,7 @@ const AddCarPopup: React.FC<AddCarPopupProps> = ({ onClose, refreshCars }) => {
             <Input
               placeholder='Enter car brand'
               {...register('brand')}
-              className='bg-gray-100 text-gray-700'
+              className='bg-gray-100 text-gray-700 border border-gray-500'
             />
             {errors.brand && (
               <p className='text-red-500 text-sm'>{errors.brand.message}</p>
@@ -175,10 +175,7 @@ const AddCarPopup: React.FC<AddCarPopupProps> = ({ onClose, refreshCars }) => {
             >
               Cancel
             </Button>
-            <Button
-              type='submit'
-              className='bg-secondary text-white hover:bg-secondary/90'
-            >
+            <Button type='submit' className='bg-primary hover:bg-primary/80'>
               Add Car
             </Button>
           </div>

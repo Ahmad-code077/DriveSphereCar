@@ -27,7 +27,6 @@ const HeroSection = () => {
             width={800} // You can adjust the width based on your design
             height={600} // Adjust the height accordingly to maintain aspect ratio
             className='w-full h-auto object-cover rounded-lg shadow-lg'
-            unoptimized={true}
           />
         </div>
       </div>
